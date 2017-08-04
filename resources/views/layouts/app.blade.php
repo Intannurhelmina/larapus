@@ -11,9 +11,10 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
-    <link href="/css/boostrap.min.css" rel="stylesheet">
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet"> 
+    <link href="/css/jquery.dataTables.css" rel="stylesheet">
+    <link href="/css/dataTables.boostrap.css" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">
@@ -78,5 +79,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="/js/jquery.dataTables.min.js"></script>
+    <script src="/js/dataTables.boostrap.min.js"></script>
 </body>
 </html>
